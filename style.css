@@ -664,6 +664,10 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+.blockquote footer {
+    color: #333333;
+}
+
 
 .container {
     max-width: 1000px;

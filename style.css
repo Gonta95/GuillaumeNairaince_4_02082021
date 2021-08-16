@@ -664,7 +664,7 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-.blockquote footer {
+blockquote footer {
     color: #333333;
 }
 
@@ -751,7 +751,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .portfolio-thumb {

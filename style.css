@@ -42,6 +42,9 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
+    /* position: relative;
+    left: 250px; */
 }
 
 .bloc-lg {
@@ -290,6 +293,8 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar-brand {
@@ -320,6 +325,12 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+}
+a{
+    text-decoration: none;
+}
+nav .point{
+    list-style: none;
 }
 
 .nav > li {
@@ -775,12 +786,15 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+}
+p {
+    font-size: 22px;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {

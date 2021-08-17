@@ -295,6 +295,7 @@ a:hover {
     z-index: 1;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-brand {
@@ -337,6 +338,9 @@ nav .point{
     float: left;
     margin-top: 4px;
     font-size: 16px;
+}
+nav .point .link-contact {
+    font-size: 18px !important;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -792,8 +796,16 @@ h4 {
 .tc-white {
     color: #FFFFFF !important;
 }
+
+a .link-contact {
+    font-size: 20px o !important;
+}
+h1 .contact-title {
+    color: #000000 !important;
+}
 p {
     font-size: 22px;
+    color: #333333 !important;
 }
 
 .btn-atomic-tangerine {
